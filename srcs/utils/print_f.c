@@ -6,7 +6,7 @@
 /*   By: galiza <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/28 19:20:04 by galiza            #+#    #+#             */
-/*   Updated: 2019/06/09 14:29:24 by pcorlys-         ###   ########.fr       */
+/*   Updated: 2019/06/09 16:44:04 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,11 +114,14 @@ int		ft_print_f(const char *fmt, va_list ap, int curr_chr, int len)
 	int				accur;
 
 	ft_get_keys(fmt, curr_chr, &flags);
-	if (!flags.t_dot)
+	if (flags.t_dot <= 0 && flags.t_dot != -1)
 		accur = 6;
 	else
 	{
-		accur = flags.t_dot;
+		if (flags.t_dot == -1)
+			accur = 0;
+		else
+			accur = flags.t_dot;
 		flags.t_dot = 0;
 	}
 	if (flags.flags & LL)
@@ -158,10 +161,10 @@ int		ft_print_f(const char *fmt, va_list ap, int curr_chr, int len)
 		len += ft_print_keys(flags, s);
 		if (flags.t_dot > 0 || (n != 0) || !flags.dot)
 			len += ft_putnbr(ABS(n));
-		len++;
-		write(1, ".", 1);
+		len += ft_print_accur(flags, accur);
 	}
 	len += print_fract(n, len, accur);
-
-	return (ft_printf_aux(fmt, ap, curr_chr + flags.len + 1, len));
+	return (ft_printf_aux(fmt, ap, curr_chr + flags.len + 1, len + accur));
 }
+
+

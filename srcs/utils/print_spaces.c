@@ -6,7 +6,7 @@
 /*   By: galiza <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/27 17:56:29 by galiza            #+#    #+#             */
-/*   Updated: 2019/06/04 17:52:50 by pcorlys-         ###   ########.fr       */
+/*   Updated: 2019/06/09 16:44:54 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int		ft_print_spaces(t_flags flags, int size_int)
 		width = 0;
 	print_width(width, flags);
 	return (width + flags.t_dot - ((!flags.total && !flags.un_tot)
-				&& flags.t_dot > 0));
+								   && flags.t_dot > 0));
 }
 
 void	ft_get_int(const char *fmt, int curr_chr, t_flags *flags)
@@ -64,12 +64,13 @@ void	ft_get_keys(const char *fmt, int curr_chr, t_flags *flags)
 	(*flags).un_tot = 0;
 	while (ft_strchr("#-+*.hl 0123456789", fmt[curr_chr + i]))
 	{
-
 		if (fmt[curr_chr + i] == '-')
 			(*flags).minus = 1;
 		if (fmt[curr_chr + i] == '.')
 		{
 			(*flags).t_dot = ft_atoi(fmt + curr_chr + i + 1);
+			if ((*flags).t_dot <= 0)
+				(*flags).t_dot = -1;
 			(*flags).dot = 1;
 		}
 		if (fmt[curr_chr + i] == '#')
@@ -98,7 +99,7 @@ int		ft_print_keys(t_flags flags, int size_int)
 	int	i;
 
 	i = 0;
-	if (flags.total < 0 && ABS(flags.total) > 0)
+	if ((flags.total < 0 && ABS(flags.total) > 0) || 1 / flags.flt < 0)
 	{
 		ft_putchar('-');
 		i = 1;
@@ -114,7 +115,7 @@ int		ft_print_keys(t_flags flags, int size_int)
 		i = 1;
 	}
 	flags.t_dot -= size_int - (flags.total < 0 || flags.plus) +
-		(!flags.total && !flags.un_tot);
+				   (!flags.total && !flags.un_tot);
 	while (flags.t_dot-- > 0)
 		ft_putchar('0');
 	if (i)
@@ -124,6 +125,7 @@ int		ft_print_keys(t_flags flags, int size_int)
 
 int		ft_print_accur(t_flags flags, int accur)
 {
+
 	int	tmp;
 	int	size;
 	int	len;
@@ -133,13 +135,10 @@ int		ft_print_accur(t_flags flags, int accur)
 	tmp = (int)flags.flt;
 	flags.flt -= (float)tmp;
 	flags.flt = ABS(flags.flt);
-	ft_putchar('.');
-	while (accur)
+	if (accur)
 	{
-		accur--;
-		tmp = (int)(flags.flt * size) % 10;
-		size *= 10;
-		ft_putnbr(ABS(tmp));
+		ft_putchar('.');
+		len++;
 	}
-	return (1);
+	return (len);
 }
