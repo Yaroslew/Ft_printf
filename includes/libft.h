@@ -17,7 +17,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdarg.h>
-# include <stdio.h>
+# include <stdio.h> // удалить
 # define ABS(Value)	((Value < 0) ? (-Value) : (Value))
 
 # define HH			1
