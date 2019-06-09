@@ -6,7 +6,7 @@
 /*   By: pcorlys- <pcorlys-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/04 16:33:54 by pcorlys-          #+#    #+#             */
-/*   Updated: 2019/06/09 12:33:39 by pcorlys-         ###   ########.fr       */
+/*   Updated: 2019/06/09 14:30:30 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,16 @@
 
 int main()
 {
-	printf("%d", ft_printf("%120f \n", 14.777));
-	printf("%d", printf("%120f \n", 14.777));
+	ft_printf("my=%100f\n", 14.777);
+	printf("no=%100f \n", 14.777);
 
+	ft_printf("my=%100f\n", 14.349);
+	printf("no=%100f \n", 14.349);
+
+	ft_printf("my=%100f\n", 14.349123456789);
+	printf("no=%100f \n", 14.349123456789);
+
+	ft_printf("my=%100f\n", -0.0);
+	printf("no=%100f \n", -0.0);
 	return (0);
 }
