@@ -6,7 +6,7 @@
 /*   By: galiza <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 18:28:42 by galiza            #+#    #+#             */
-/*   Updated: 2019/05/31 14:59:53 by galiza           ###   ########.fr       */
+/*   Updated: 2019/06/06 18:05:54 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,21 +25,32 @@
 # define L			4
 # define LL			8
 
+/*
+ *
+ *Это все флаги, они все парстятся из функции get_keys, minus, plus, dot, blank, h_tag( - +. '  ' #),
+ * (если встретились, то 1), zero выставляется вручную, если перед цифрой стоит 0 и соблюдены правила
+ * (нету минуса и 0 стоит строго перед padding),
+ * ,
+ * total - это число из листа, un_tot тоже самое только без знака, flt используется для флоата,
+ * замена total,  flags используется для флагов hh h l ll, hh - 1,
+ * h - 10, l - 100, ll - 1000(в двоичной)
+ */
+
 typedef	struct		s_flags
 {
 	int						minus;
 	int						plus;
-	int						dot;
+	int						dot; // точка
 	int						zero;
-	int						len;
-	int						blank;
+	int						len;  //len -длина ключей от процента до спецификатора,
+	int						blank; //
 	int						h_tag;
-	int						l_int;
-	int						padding;
+	int						l_int; //l_int - длина до числа padding
+	int						padding; // padding это само число, сколько нулей или пробелов поставится
 	long long int			total;
 	unsigned long long int	un_tot;
 	double					flt;
-	int						t_dot;
+	int						t_dot; //t_dot число, которое стоит после dot,
 	int						flags;
 }					t_flags;
 
@@ -67,8 +78,7 @@ size_t				ft_strlcat(char *dst, const char *src, size_t size);
 char				*ft_strchr(const char *s, int c);
 char				*ft_strrchr(const char *s, int c);
 char				*ft_strstr(const char *haystack, const char *needle);
-char				*ft_strnstr(const char *haystack,
-		const char *needle, size_t len);
+char				*ft_strnstr(const char *haystack,const char *needle, size_t len);
 int					ft_strcmp(const char *s1, const char *s2);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 int					ft_atoi(const char *str);

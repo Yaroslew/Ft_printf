@@ -6,7 +6,7 @@
 /*   By: galiza <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/27 17:56:29 by galiza            #+#    #+#             */
-/*   Updated: 2019/05/31 15:48:56 by galiza           ###   ########.fr       */
+/*   Updated: 2019/06/04 17:52:50 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,7 @@ void	ft_get_keys(const char *fmt, int curr_chr, t_flags *flags)
 	(*flags).un_tot = 0;
 	while (ft_strchr("#-+*.hl 0123456789", fmt[curr_chr + i]))
 	{
+
 		if (fmt[curr_chr + i] == '-')
 			(*flags).minus = 1;
 		if (fmt[curr_chr + i] == '.')
@@ -140,5 +141,5 @@ int		ft_print_accur(t_flags flags, int accur)
 		size *= 10;
 		ft_putnbr(ABS(tmp));
 	}
-	return (0);
+	return (1);
 }

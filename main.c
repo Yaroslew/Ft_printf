@@ -1,28 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: galiza <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: pcorlys- <pcorlys-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/06 19:18:19 by galiza            #+#    #+#             */
-/*   Updated: 2019/06/09 09:48:18 by pcorlys-         ###   ########.fr       */
+/*   Created: 2019/06/04 16:33:54 by pcorlys-          #+#    #+#             */
+/*   Updated: 2019/06/09 12:33:39 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-char	*ft_strcat(char *s1, const char *s2)
+int main()
 {
-	int		i;
-	int		i1;
+	printf("%d", ft_printf("%120f \n", 14.777));
+	printf("%d", printf("%120f \n", 14.777));
 
-	i = 0;
-	i1 = 0;
-	while (s1[i])
-		i++;
-	while (s2[i1])
-		s1[i++] = s2[i1++];
-	s1[i] = '\0';
-	return (s1);
+	return (0);
 }
