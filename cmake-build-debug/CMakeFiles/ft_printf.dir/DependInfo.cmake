@@ -1,0 +1,97 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Users/pcorlys-/ft_printf/main.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/main.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_atoi.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_atoi.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_bzero.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_bzero.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_count_if.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_count_if.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_foreach.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_foreach.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_isalnum.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_isalnum.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_isalpha.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_isalpha.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_isascii.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_isascii.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_isdigit.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_isdigit.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_isprint.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_isprint.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_iterative_power.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_iterative_power.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_itoa.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_itoa.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_lstadd.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_lstadd.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_lstdel.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_lstdel.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_lstdelone.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_lstdelone.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_lstiter.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_lstiter.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_lstmap.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_lstmap.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_lstnew.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_lstnew.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_memalloc.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_memalloc.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_memccpy.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_memccpy.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_memchr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_memchr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_memcmp.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_memcmp.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_memcpy.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_memcpy.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_memdel.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_memdel.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_memmove.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_memmove.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_memset.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_memset.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_printf.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_printf.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putchar.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putchar.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putchar_fd.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putchar_fd.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putendl.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putendl.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putendl_fd.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putendl_fd.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putnbr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putnbr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putnbr_fd.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putnbr_fd.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putnstr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putnstr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putstr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putstr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putstr_fd.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putstr_fd.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_putun_nbr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_putun_nbr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_sqrt.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_sqrt.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strcat.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strcat.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strchr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strchr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strclr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strclr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strcmp.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strcmp.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strcpy.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strcpy.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strdel.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strdel.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strdup.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strdup.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strequ.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strequ.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_striter.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_striter.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_striteri.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_striteri.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strjoin.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strjoin.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strlcat.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strlcat.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strlen.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strlen.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strmap.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strmap.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strmapi.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strmapi.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strncat.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strncat.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strncmp.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strncmp.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strncpy.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strncpy.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strnequ.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strnequ.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strnew.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strnew.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strnstr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strnstr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strrchr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strrchr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strsplit.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strsplit.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strstr.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strstr.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strsub.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strsub.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_strtrim.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_strtrim.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_swap.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_swap.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_tolower.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_tolower.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/ft_toupper.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/ft_toupper.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_bigx.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_bigx.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_c.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_c.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_d.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_d.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_f.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_f.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_o.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_o.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_p.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_p.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_percent.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_percent.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_s.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_s.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_spaces.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_spaces.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_u.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_u.c.o"
+  "/Users/pcorlys-/ft_printf/srcs/utils/print_x.c" "/Users/pcorlys-/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/srcs/utils/print_x.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

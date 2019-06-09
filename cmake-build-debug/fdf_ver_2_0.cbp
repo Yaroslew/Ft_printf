@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fdf_ver_2_0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/pcorlys-/ft_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/pcorlys-/ft_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/pcorlys-/ft_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_printf">
+				<Option output="/Users/pcorlys-/ft_printf/cmake-build-debug/ft_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pcorlys-/ft_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_printf/fast">
+				<Option output="/Users/pcorlys-/ft_printf/cmake-build-debug/ft_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pcorlys-/ft_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pcorlys-/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/pcorlys-/ft_printf/includes/libft.h">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/main.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_atoi.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_bzero.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_count_if.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_foreach.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_isalnum.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_isalpha.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_isascii.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_isdigit.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_isprint.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_iterative_power.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_itoa.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_lstadd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_lstdel.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_lstdelone.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_lstiter.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_lstmap.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_lstnew.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_memalloc.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_memccpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_memchr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_memcmp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_memcpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_memdel.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_memmove.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_memset.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_printf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putchar.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putchar_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putendl.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putendl_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putnbr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putnbr_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putnstr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putstr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putstr_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_putun_nbr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_sqrt.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strcat.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strchr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strclr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strcmp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strcpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strdel.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strdup.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strequ.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_striter.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_striteri.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strjoin.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strlcat.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strlen.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strmap.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strmapi.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strncat.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strncmp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strncpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strnequ.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strnew.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strnstr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strrchr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strsplit.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strstr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strsub.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_strtrim.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_swap.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_tolower.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/ft_toupper.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_bigx.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_c.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_d.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_f.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_o.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_p.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_percent.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_s.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_spaces.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_u.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/srcs/utils/print_x.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/pcorlys-/ft_printf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
