@@ -6,14 +6,13 @@
 /*   By: galiza <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 18:28:42 by galiza            #+#    #+#             */
-/*   Updated: 2019/06/09 21:15:13 by pcorlys-         ###   ########.fr       */
+/*   Updated: 2019/06/09 22:23:51 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdarg.h>
