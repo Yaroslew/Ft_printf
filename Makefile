@@ -6,7 +6,7 @@
 #    By: galiza <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/04/04 19:55:13 by galiza            #+#    #+#              #
-#    Updated: 2019/05/29 20:03:41 by galiza           ###   ########.fr        #
+#    Updated: 2019/06/09 21:01:34 by pcorlys-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -78,6 +78,7 @@ SRC = ft_memset.c\
 	ft_swap.c \
 	ft_printf.c
 
+
 PRINTF = print_c.c\
 		 print_s.c\
 		 print_p.c\
@@ -88,7 +89,9 @@ PRINTF = print_c.c\
 		 print_x.c\
 		 print_bigx.c\
 		 print_percent.c\
-		 print_spaces.c
+		 print_f_sec.c\
+		 print_spaces.c\
+		 print_get_keys.c
 
 OBJ = $(SRC:.c=.o)
 OBJPRINTF = $(PRINTF:.c=.o)

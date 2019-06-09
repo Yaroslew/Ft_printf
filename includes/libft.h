@@ -6,7 +6,7 @@
 /*   By: galiza <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/04 18:28:42 by galiza            #+#    #+#             */
-/*   Updated: 2019/06/06 18:05:54 by pcorlys-         ###   ########.fr       */
+/*   Updated: 2019/06/09 21:15:13 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdarg.h>
-# include <stdio.h> // удалить
 # define ABS(Value)	((Value < 0) ? (-Value) : (Value))
 
 # define HH			1
@@ -25,33 +24,23 @@
 # define L			4
 # define LL			8
 
-/*
- *
- *Это все флаги, они все парстятся из функции get_keys, minus, plus, dot, blank, h_tag( - +. '  ' #),
- * (если встретились, то 1), zero выставляется вручную, если перед цифрой стоит 0 и соблюдены правила
- * (нету минуса и 0 стоит строго перед padding),
- * ,
- * total - это число из листа, un_tot тоже самое только без знака, flt используется для флоата,
- * замена total,  flags используется для флагов hh h l ll, hh - 1,
- * h - 10, l - 100, ll - 1000(в двоичной)
- */
-
 typedef	struct		s_flags
 {
-	int						minus;
-	int						plus;
-	int						dot; // точка
-	int						zero;
-	int						len;  //len -длина ключей от процента до спецификатора,
-	int						blank; //
-	int						h_tag;
-	int						l_int; //l_int - длина до числа padding
-	int						padding; // padding это само число, сколько нулей или пробелов поставится
-	long long int			total;
-	unsigned long long int	un_tot;
-	double					flt;
-	int						t_dot; //t_dot число, которое стоит после dot,
-	int						flags;
+	int				minus;
+	int				plus;
+	int				dot;
+	int				zero;
+	int				len;
+	int				blank;
+	int				h_tag;
+	int				l_int;
+	int				padding;
+	long long int	total;
+	unsigned long
+	long int		un_tot;
+	double			flt;
+	int				t_dot;
+	int				flags;
 }					t_flags;
 
 typedef	struct		s_list
@@ -78,7 +67,8 @@ size_t				ft_strlcat(char *dst, const char *src, size_t size);
 char				*ft_strchr(const char *s, int c);
 char				*ft_strrchr(const char *s, int c);
 char				*ft_strstr(const char *haystack, const char *needle);
-char				*ft_strnstr(const char *haystack,const char *needle, size_t len);
+char				*ft_strnstr(const char *haystack, const char *needle,
+					size_t len);
 int					ft_strcmp(const char *s1, const char *s2);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 int					ft_atoi(const char *str);
@@ -110,9 +100,10 @@ void				ft_putchar(char c);
 void				ft_putstr(char const *s);
 void				ft_putnstr(char const *s, int n);
 void				ft_putendl(char const *s);
-int					ft_putnbr_base(long long int n, int base, const char *digits);
+int					ft_putnbr_base(long long int n, int base,
+					const char *digits);
 int					ft_putun_nbr_base(unsigned long long int n,
-		unsigned int base, const char *digits);
+					unsigned int base, const char *digits);
 int					ft_putun_nbr(unsigned long long int n);
 int					ft_putnbr(long long int n);
 void				ft_putchar_fd(char c, int fd);
@@ -131,18 +122,31 @@ void				ft_swap(int *a, int *b);
 int					ft_pow(int nb, int power);
 int					ft_count_if(char **tab, int (*f) (char*));
 int					ft_printf(const char *fmt, ...);
-/* printf utils */
-int					ft_print_percent(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_print_c(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_print_s(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_print_p(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_print_f(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_print_d(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_print_o(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_print_u(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_print_x(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_print_bigx(const char *fmt, va_list ap, int curr_chr, int len);
-int					ft_printf_aux(const char *fmt, va_list ap, int curr_chr, int len);
+/*
+** ----------------------------- Printf utils----------------------------------
+*/
+int					ft_print_percent(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_print_c(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_print_s(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_print_p(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_print_f(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_print_d(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_print_o(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_print_u(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_print_x(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_print_bigx(const char *fmt, va_list ap,
+					int curr_chr, int len);
+int					ft_printf_aux(const char *fmt, va_list ap,
+					int curr_chr, int len);
 int					ft_print_spaces(t_flags flags, int size_int);
 int					ft_print_accur(t_flags flags, int accur);
 void				ft_get_int(const char *fmt, int len, t_flags *flags);
@@ -150,4 +154,9 @@ void				ft_get_keys(const char *fmt, int len, t_flags *flags);
 int					ft_print_keys(t_flags flags, int size_int);
 int					size(long long int i);
 
+/*
+** ----------------------------- Printf norminette------------------------------
+*/
+int					print_fract(long double n, int len, int accur);
+int					if_long(const char *fmt, int curr_chr, t_flags flags);
 #endif

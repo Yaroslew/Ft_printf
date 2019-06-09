@@ -6,7 +6,7 @@
 /*   By: galiza <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 20:32:48 by galiza            #+#    #+#             */
-/*   Updated: 2019/05/29 19:16:24 by galiza           ###   ########.fr       */
+/*   Updated: 2019/06/09 21:22:48 by pcorlys-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ int		ft_print_percent(const char *fmt, va_list ap, int curr_chr, int len)
 	ft_get_keys(fmt, curr_chr, &flags);
 	flags.t_dot = 0;
 	c = va_arg(ap, int);
-	if (((fmt[curr_chr + flags.l_int] == '0' && ft_atoi(fmt + curr_chr
-+ flags.l_int) != 0) || (fmt[curr_chr + flags.l_int - 1] == '+' &&
+	if (((fmt[curr_chr + flags.l_int] == '0' && ft_atoi(fmt + curr_chr +
+	flags.l_int) != 0) || (fmt[curr_chr + flags.l_int - 1] == '+' &&
 fmt[curr_chr + flags.l_int - 2] == '0')) && !flags.minus && flags.padding > 0)
 		flags.zero = 1;
 	if (flags.minus)
